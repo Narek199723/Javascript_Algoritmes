@@ -38,5 +38,24 @@ function addUpTo1(n) {
 console.log(addUpTo(3));
 
 // *  So which one is better approach?
-// *  First we have to find out what does better mean? 
+// *  First we have to find out what does better mean?
 // * We mean faster? or less memory-intensive? or more readable?
+
+// !  Logarithms
+// *  Sometimes big O expressions involve more complex mathematical expressions
+// *  One that appears more often than you might like is the logarithm
+
+// ^ What is Logarithm ? what is a log?
+// *  log2(8)==3, this means that what to square with, what power of 2 will give us 8
+// *  so log2(8) = 3 --> 2**3=8
+// *  log2(value)=exponent --> 2**exponent = value
+
+
+// ^  THe logarithm of a number roughly measures the number of times you can divide that number by 2 before you get a value that's less than or equal to one
+// * Example  So if we have log(8) this = 8/2=4 || 4/2=2 || 2/2=1 so log(8)=3 , because we should have divided 8 by 2 3 times to get the number 1
+// * Example 25- 25/2=12.5|| 12.5/2=6.25 || 6.25/2=3.125 || 3.125/2=1.5625|| 1.5625/2=0.78125 so log(25)=4.64 approximately
+
+// *  1.  To analyze the performance of an algorithm , we use Big O Notation
+// *  2.  Big O Notation can give us a high level understanding of the time or space complexity of an algorithm
+// *  3.  Big O notation doesn't care about precision, only about general trends( linear? quadratic? constant? )
+// *  4.  The time or space complexity (as measured by Big O) depends only on the algorithm, not the hardware used to run the algorithm
